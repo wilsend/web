@@ -1,0 +1,10 @@
+.backgroundImage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("tool.jpg");
+}
+#mission .backgroundImage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("lightbulbs.jpg");
+}
+
+
+
+

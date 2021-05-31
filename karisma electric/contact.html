@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Contact Us</title>
+      <link href="style_layout.css" rel="stylesheet"/>
+	  <link href="contact.css" rel="stylesheet"/>
+	  <script src="javascript.js" defer></script>
+   </head>
+             
+<body>
+	<div class="backgroundImage">
+		<a href="index.html"><img src="KE_Logo_Medium.png" id="logo"/></a>
+		<div class="container">
+			<div class="topnav">
+				<a href="index.html">Home</a>
+				<div class="dropdown">
+					<button class="dropbtn">Services<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+					  <a href="residential.html">Residentail</a>
+					  <a href="commercial.html">Commercial</a>
+					  <a href="industrial.html">Industrial</a>
+					</div>
+				</div> 
+				<a href="about.html">About Us</a>
+				<a href="contact.html">Contact Us</a>
+				<a href="javascript:void(0);" class="icon" onclick="navRespon()">&#9776;</a>
+			</div>
+		</div>
+		<div class="imageText">
+			<h1>Contact Us</h1>
+			<h2>We Love To Hear From You!</h2>
+		</div>
+	</div>
+	
+	<section id="contactInfo">
+		<br>
+		<h3>Phone</h3>
+		<h2>(720) 668-7986</h2>
+		<h3>Hours</h3>
+		<h2>Monday ~ Friday</h2>
+		<h2>8:00 AM to 5:00 PM</h2>
+	</section>
+	
+	<!--2.4.3--> 
+	<!--web form--> 
+	<form id="contactForm" action="#">
+		<div class="formRow">
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name" placeholder="Your name.." required>
+		</div>
+		<div class="formRow">
+			<label for="phone">Phone</label>
+			<input type="text" id="phone" name="phone" placeholder="Your phone.." required>
+		</div>
+			<label for="email">Email</label>
+			<input type="text" id="email" name="email" placeholder="Your email.." required>
+			<label for="message">Message</label>
+			<textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+			
+			<input type="submit" id='submit' value="Submit">
+	</form>
+	
+	<footer>
+	  <em>Phone</em> 
+      (720) 668-7986 &#9702;
+      <em>Hours</em> 
+      Monday - Friday 8:00 AM to 5:00 PM
+	  <div class="timeMod">
+          <div id="time"></div>
+            Last Modified: Novemer 27, 2019
+      </div>
+	</footer>
+		
+   
+   
+</body>
+</html>

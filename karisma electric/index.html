@@ -1,0 +1,105 @@
+<!--
+
+   Wilsen Digdigan
+   T00531551
+   COMP 2680
+   Web Design Project
+   
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+	  <!--2.4.1 d)-->  
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Karisma Electric</title>
+      <link href="style_layout.css" rel="stylesheet"/>
+	  <link href="index.css" rel="stylesheet"/>
+	  <script src="javascript.js" type="text/javascript" defer></script>
+   </head>
+   
+<!--2.4.1 a)-->  
+<body>
+	<!--main image-->  
+	<div class="backgroundImage">
+		<!--2.4.1 b)  -->  
+		<a href="index.html"><img src="KE_Logo_Medium.png" id="logo"/></a>
+		<div class="container">
+			<!--navigation bar-->  
+			<div class="topnav" id="nav">
+				<a href="index.html">Home</a>
+				<!--navigation dropdown-->  
+				<div class="dropdown">
+					<button class="dropbtn">Services<i class="fa fa-caret-down"></i>
+					</button>
+					<!--navigation dropdown content-->  
+					<div class="dropdown-content">
+					  <a href="residential.html">Residentail</a>
+					  <a href="commercial.html">Commercial</a>
+					  <a href="industrial.html">Industrial</a>
+					</div>
+				</div> 
+				<a href="about.html">About Us</a>
+				<a href="contact.html">Contact Us</a>
+                <a href="cross.html">CrossRef</a>
+				<a href="javascript:void(0);" class="icon" id="icon" onclick="navRespon()">&#9776;</a>
+			</div>
+		</div>
+		<!--Main text-->  
+		<div class="imageText">
+			<h1>Most Trusted Electrical Contractor</h1>
+			<h1>Greater Denver Area</h1>
+		</div>
+	</div>
+	
+	<!--2.4.8-->  
+	<section id="services">
+		<h1>Karisma Electric Services</h1>
+		<!--Call To Action--> 
+		<div class="service">
+			<div>
+				<h3>Residential</h3>
+				<a href="residential.html"><img src="residential-p.png"/></a>
+				<h3>100% Guaranteed & Up-Front Pricing</h3>
+			</div>
+			<div>
+				<h3>Commercial</h3>
+				<a href="commercial.html"><img src="commercial-p.png"/></a>
+				<h3>Solution For Your Building</h3>
+			</div>
+			<div>
+				<h3>Industrial</h3>
+				<a href="industrial.html"><img src="industrial-p.png"/></a>
+				<h3>Complete Services</h3>
+			</div>
+		</div>
+	</section>
+	
+	<section id="mission">
+		<div class="backgroundImage">
+			<div class="imageText">
+				<h1>Mission</h1>
+				<p>To be your team's go to electrical contractor. We give our customers the safety and quality that they deserve.
+					Confident in our work ethics, knowledge and craftsmanship, we prove the industries best 100% satisfaction guarantee.
+					We are your friendly neighborhood electrical contractor, keeping the area wired up!</p>
+				<!--2.4.6 e)--> 
+				<button onclick="location.href='about.html'" type="button" id="learnButton">Learn More</button>
+			</div>
+		</div>
+	</section>
+	
+	<!--2.4.1 c) e)  -->  
+	<footer id="footer">
+	  <em>Phone</em> 
+      (720) 668-7986 &#9702;
+      <em>Hours</em> 
+      Monday - Friday 8:00 AM to 5:00 PM
+	  <div class="timeMod">
+          <div id="time"></div>
+            Last Modified: Novemer 27, 2019
+      </div>
+	</footer>
+
+</body>
+</html>
